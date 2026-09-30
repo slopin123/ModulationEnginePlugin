@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="zBCM1W" name="ModulationEngine" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="iZyp5B" name="ModulationEngine">
+    <GROUP id="{CD4F1744-90BA-9C58-5539-06644FB051D9}" name="Source">
+      <GROUP id="{5232E1F7-3423-7664-2996-04CF5A2036D8}" name="App">
+        <FILE id="HzYLVp" name="MainComponent.cpp" compile="1" resource="0"
+              file="Source/App/MainComponent.cpp"/>
+        <FILE id="cMpbOd" name="MainComponent.h" compile="0" resource="0" file="Source/App/MainComponent.h"/>
+      </GROUP>
+      <GROUP id="{A58BDA24-FF52-5004-FC0D-C03AAE38846D}" name="Audio">
+        <GROUP id="{B614FA4D-EB23-6ABB-4AB9-535964077471}" name="Filters">
+          <FILE id="w4e1b0" name="SVF.cpp" compile="1" resource="0" file="Source/Audio/Filters/SVF.cpp"/>
+          <FILE id="OBQeCS" name="SVF.h" compile="0" resource="0" file="Source/Audio/Filters/SVF.h"/>
+        </GROUP>
+        <FILE id="p4IeZq" name="AudioEngine.cpp" compile="1" resource="0" file="Source/Audio/AudioEngine.cpp"/>
+        <FILE id="GoE78F" name="AudioEngine.h" compile="0" resource="0" file="Source/Audio/AudioEngine.h"/>
+        <FILE id="E2ayTn" name="ModulationSource.cpp" compile="1" resource="0"
+              file="Source/Audio/ModulationSource.cpp"/>
+        <FILE id="PIsabc" name="ModulationSource.h" compile="0" resource="0"
+              file="Source/Audio/ModulationSource.h"/>
+        <FILE id="OmWz82" name="WavPlayer.cpp" compile="1" resource="0" file="Source/Audio/WavPlayer.cpp"/>
+        <FILE id="jJD3HN" name="WavPlayer.h" compile="0" resource="0" file="Source/Audio/WavPlayer.h"/>
+      </GROUP>
+      <GROUP id="{A221C43F-E775-C952-22B2-B82291B4AF30}" name="UI">
+        <FILE id="vqhH39" name="GlobalControls.cpp" compile="1" resource="0"
+              file="Source/UI/GlobalControls.cpp"/>
+        <FILE id="GOn4oF" name="GlobalControls.h" compile="0" resource="0"
+              file="Source/UI/GlobalControls.h"/>
+        <FILE id="dKVnKZ" name="GraphEditor.cpp" compile="1" resource="0" file="Source/UI/GraphEditor.cpp"/>
+        <FILE id="KcYcdz" name="GraphEditor.h" compile="0" resource="0" file="Source/UI/GraphEditor.h"/>
+        <FILE id="feQY8C" name="GraphEditorUI.cpp" compile="1" resource="0"
+              file="Source/UI/GraphEditorUI.cpp"/>
+        <FILE id="JRgs2m" name="GraphEditorUI.h" compile="0" resource="0" file="Source/UI/GraphEditorUI.h"/>
+      </GROUP>
+      <FILE id="njGJDx" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2026 targetFolder="Builds/VisualStudio2026">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="NewProject"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="NewProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2026>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
