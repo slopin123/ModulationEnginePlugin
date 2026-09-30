@@ -25,3 +25,6 @@ Thumbs.db
 
 # JUCE generated/build files
 JuceLibraryCode/
+
+# Other
+*.wav
